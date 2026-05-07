@@ -1,0 +1,13 @@
+compra = 25000
+destino = "Magallanes"
+costo_envio = 0 
+
+if compra > 20000:
+    costo_envio = 0
+else:
+   costo_envio = 3000
+
+if destino == "Magallanes":
+    costo_envio += 2000
+
+print(costo_envio)
